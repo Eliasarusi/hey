@@ -29,7 +29,7 @@ export function Base64EncoderDecoderContent() {
       const isEncoding = mode === "encode"
       if (isEncoding && selectedEmoji === "") {
         setOutputText("")
-        setErrorText("Error encoding: Please provide a key character")
+        setErrorText("")
         return
       }
       // קריאה לפונקציית ההצפנה/פענוח
